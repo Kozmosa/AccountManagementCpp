@@ -13,6 +13,13 @@ public:
     double amount;
 
     Account(std::string date, std::string name, double amount);
+
+    // Getter 函数
+    int getId() const;
+    std::string getDate() const;
+    std::string getName() const;
+    double getAmount() const;
+
     void display() const;  // 输出账务信息
 };
 

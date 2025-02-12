@@ -37,9 +37,9 @@ FileManager.hpp
 /home/kozumi/code/AccountManagemantCpp/FileManager.hpp
 fstream
 -
-sstream
--
 iostream
+-
+sstream
 -
 
 /home/kozumi/code/AccountManagemantCpp/FileManager.hpp
@@ -102,6 +102,10 @@ vector
 string
 -
 algorithm
+-
+limits
+-
+cstdlib
 -
 Account.hpp
 /home/kozumi/code/AccountManagemantCpp/Account.hpp

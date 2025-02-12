@@ -8,7 +8,7 @@ set(GTEST_INCLUDE_DIRS "/usr/src/gtest/include/gtest")
 find_package(GTest REQUIRED)
 include_directories(${GTEST_INCLUDE_DIRS})
 
-add_executable(account_book main.cpp Account.cpp YearStat.cpp FileManager.cpp StatAggregator.cpp)
+add_executable(account_book main.cpp Account.cpp YearStat.cpp FileManager.cpp StatAggregator.cpp MonthStat.cpp DayStat.cpp)
 
 # 编译并链接测试
 # add_executable(test Account.cpp Test.cpp)

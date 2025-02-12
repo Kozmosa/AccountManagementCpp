@@ -10,8 +10,7 @@ public:
     virtual double calculateExpenditure(const std::vector<Account>& accounts) = 0;
     virtual double calculateBalance(const std::vector<Account>& accounts) = 0;
     virtual void displayStatistics(const std::vector<Account>& accounts) = 0;
-
-    ~StatAggregator();
+    ~StatAggregator();  // 析构函数
 };
 
 #endif // STATAGGREGATOR_HPP

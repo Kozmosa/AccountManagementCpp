@@ -7,7 +7,6 @@
 
 class MonthStat : public StatAggregator {
 public:
-    // 按月统计收支金额
     double calculateIncome(const std::vector<Account>& accounts) override;
     double calculateExpenditure(const std::vector<Account>& accounts) override;
     double calculateBalance(const std::vector<Account>& accounts) override;
