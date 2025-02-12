@@ -4,9 +4,19 @@
 CMakeFiles/account_book.dir/Account.cpp.o: ../Account.cpp
 CMakeFiles/account_book.dir/Account.cpp.o: ../Account.hpp
 
+CMakeFiles/account_book.dir/DayStat.cpp.o: ../Account.hpp
+CMakeFiles/account_book.dir/DayStat.cpp.o: ../DayStat.cpp
+CMakeFiles/account_book.dir/DayStat.cpp.o: ../DayStat.hpp
+CMakeFiles/account_book.dir/DayStat.cpp.o: ../StatAggregator.hpp
+
 CMakeFiles/account_book.dir/FileManager.cpp.o: ../Account.hpp
 CMakeFiles/account_book.dir/FileManager.cpp.o: ../FileManager.cpp
 CMakeFiles/account_book.dir/FileManager.cpp.o: ../FileManager.hpp
+
+CMakeFiles/account_book.dir/MonthStat.cpp.o: ../Account.hpp
+CMakeFiles/account_book.dir/MonthStat.cpp.o: ../MonthStat.cpp
+CMakeFiles/account_book.dir/MonthStat.cpp.o: ../MonthStat.hpp
+CMakeFiles/account_book.dir/MonthStat.cpp.o: ../StatAggregator.hpp
 
 CMakeFiles/account_book.dir/StatAggregator.cpp.o: ../Account.hpp
 CMakeFiles/account_book.dir/StatAggregator.cpp.o: ../StatAggregator.cpp
@@ -18,7 +28,9 @@ CMakeFiles/account_book.dir/YearStat.cpp.o: ../YearStat.cpp
 CMakeFiles/account_book.dir/YearStat.cpp.o: ../YearStat.hpp
 
 CMakeFiles/account_book.dir/main.cpp.o: ../Account.hpp
+CMakeFiles/account_book.dir/main.cpp.o: ../DayStat.hpp
 CMakeFiles/account_book.dir/main.cpp.o: ../FileManager.hpp
+CMakeFiles/account_book.dir/main.cpp.o: ../MonthStat.hpp
 CMakeFiles/account_book.dir/main.cpp.o: ../StatAggregator.hpp
 CMakeFiles/account_book.dir/main.cpp.o: ../YearStat.hpp
 CMakeFiles/account_book.dir/main.cpp.o: ../main.cpp

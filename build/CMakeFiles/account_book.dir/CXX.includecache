@@ -6,10 +6,40 @@
 
 #IncludeRegexTransform: 
 
+/home/kozumi/code/AccountManagemantCpp/Account.cpp
+Account.hpp
+/home/kozumi/code/AccountManagemantCpp/Account.hpp
+iostream
+-
+
 /home/kozumi/code/AccountManagemantCpp/Account.hpp
 string
 -
 ctime
+-
+
+/home/kozumi/code/AccountManagemantCpp/DayStat.cpp
+DayStat.hpp
+/home/kozumi/code/AccountManagemantCpp/DayStat.hpp
+iostream
+-
+
+/home/kozumi/code/AccountManagemantCpp/DayStat.hpp
+StatAggregator.hpp
+/home/kozumi/code/AccountManagemantCpp/StatAggregator.hpp
+vector
+-
+string
+-
+
+/home/kozumi/code/AccountManagemantCpp/FileManager.cpp
+FileManager.hpp
+/home/kozumi/code/AccountManagemantCpp/FileManager.hpp
+fstream
+-
+sstream
+-
+iostream
 -
 
 /home/kozumi/code/AccountManagemantCpp/FileManager.hpp
@@ -19,6 +49,24 @@ string
 -
 Account.hpp
 /home/kozumi/code/AccountManagemantCpp/Account.hpp
+
+/home/kozumi/code/AccountManagemantCpp/MonthStat.cpp
+MonthStat.hpp
+/home/kozumi/code/AccountManagemantCpp/MonthStat.hpp
+iostream
+-
+sstream
+-
+iomanip
+-
+
+/home/kozumi/code/AccountManagemantCpp/MonthStat.hpp
+StatAggregator.hpp
+/home/kozumi/code/AccountManagemantCpp/StatAggregator.hpp
+vector
+-
+string
+-
 
 /home/kozumi/code/AccountManagemantCpp/StatAggregator.cpp
 StatAggregator.hpp
@@ -51,10 +99,18 @@ iostream
 -
 vector
 -
+string
+-
+algorithm
+-
 Account.hpp
 /home/kozumi/code/AccountManagemantCpp/Account.hpp
 FileManager.hpp
 /home/kozumi/code/AccountManagemantCpp/FileManager.hpp
 YearStat.hpp
 /home/kozumi/code/AccountManagemantCpp/YearStat.hpp
+MonthStat.hpp
+/home/kozumi/code/AccountManagemantCpp/MonthStat.hpp
+DayStat.hpp
+/home/kozumi/code/AccountManagemantCpp/DayStat.hpp
 

@@ -150,6 +150,33 @@ Account.cpp.s:
 	$(MAKE) -f CMakeFiles/account_book.dir/build.make CMakeFiles/account_book.dir/Account.cpp.s
 .PHONY : Account.cpp.s
 
+DayStat.o: DayStat.cpp.o
+
+.PHONY : DayStat.o
+
+# target to build an object file
+DayStat.cpp.o:
+	$(MAKE) -f CMakeFiles/account_book.dir/build.make CMakeFiles/account_book.dir/DayStat.cpp.o
+.PHONY : DayStat.cpp.o
+
+DayStat.i: DayStat.cpp.i
+
+.PHONY : DayStat.i
+
+# target to preprocess a source file
+DayStat.cpp.i:
+	$(MAKE) -f CMakeFiles/account_book.dir/build.make CMakeFiles/account_book.dir/DayStat.cpp.i
+.PHONY : DayStat.cpp.i
+
+DayStat.s: DayStat.cpp.s
+
+.PHONY : DayStat.s
+
+# target to generate assembly for a file
+DayStat.cpp.s:
+	$(MAKE) -f CMakeFiles/account_book.dir/build.make CMakeFiles/account_book.dir/DayStat.cpp.s
+.PHONY : DayStat.cpp.s
+
 FileManager.o: FileManager.cpp.o
 
 .PHONY : FileManager.o
@@ -176,6 +203,33 @@ FileManager.s: FileManager.cpp.s
 FileManager.cpp.s:
 	$(MAKE) -f CMakeFiles/account_book.dir/build.make CMakeFiles/account_book.dir/FileManager.cpp.s
 .PHONY : FileManager.cpp.s
+
+MonthStat.o: MonthStat.cpp.o
+
+.PHONY : MonthStat.o
+
+# target to build an object file
+MonthStat.cpp.o:
+	$(MAKE) -f CMakeFiles/account_book.dir/build.make CMakeFiles/account_book.dir/MonthStat.cpp.o
+.PHONY : MonthStat.cpp.o
+
+MonthStat.i: MonthStat.cpp.i
+
+.PHONY : MonthStat.i
+
+# target to preprocess a source file
+MonthStat.cpp.i:
+	$(MAKE) -f CMakeFiles/account_book.dir/build.make CMakeFiles/account_book.dir/MonthStat.cpp.i
+.PHONY : MonthStat.cpp.i
+
+MonthStat.s: MonthStat.cpp.s
+
+.PHONY : MonthStat.s
+
+# target to generate assembly for a file
+MonthStat.cpp.s:
+	$(MAKE) -f CMakeFiles/account_book.dir/build.make CMakeFiles/account_book.dir/MonthStat.cpp.s
+.PHONY : MonthStat.cpp.s
 
 StatAggregator.o: StatAggregator.cpp.o
 
@@ -270,9 +324,15 @@ help:
 	@echo "... Account.o"
 	@echo "... Account.i"
 	@echo "... Account.s"
+	@echo "... DayStat.o"
+	@echo "... DayStat.i"
+	@echo "... DayStat.s"
 	@echo "... FileManager.o"
 	@echo "... FileManager.i"
 	@echo "... FileManager.s"
+	@echo "... MonthStat.o"
+	@echo "... MonthStat.i"
+	@echo "... MonthStat.s"
 	@echo "... StatAggregator.o"
 	@echo "... StatAggregator.i"
 	@echo "... StatAggregator.s"
