@@ -5,8 +5,8 @@ set(CMAKE_CXX_STANDARD 11)
 set(GTEST_INCLUDE_DIRS "/usr/src/gtest/include/gtest")
 
 # 查找gtest库
-find_package(GTest REQUIRED)
-include_directories(${GTEST_INCLUDE_DIRS})
+# find_package(GTest REQUIRED)
+# include_directories(${GTEST_INCLUDE_DIRS})
 
 add_executable(account_book main.cpp Account.cpp YearStat.cpp FileManager.cpp StatAggregator.cpp MonthStat.cpp DayStat.cpp)
 
